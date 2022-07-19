@@ -1,0 +1,1140 @@
+<!DOCTYPE html>
+<html color-mode="light" lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Arvind Krishna</title>
+    <script>
+      if (
+        localStorage.getItem("color-mode") === "dark" ||
+        (window.matchMedia("(prefers-color-scheme: dark)").matches &&
+          !localStorage.getItem("color-mode"))
+      ) {
+        document.documentElement.setAttribute("color-mode", "dark");
+      }
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+    <link rel="icon" href="assets//avatar.">
+  </head>
+  <body>
+    <div id="container">
+
+      <!-- Dark Mode Toggle  -->
+      <div class="color-mode-toggle">
+        <button class="color-mode-btn light--hidden" aria-label="Toggle light mode">
+          <svg class="icon-sun">
+            <use xlink:href="assets/svg/svg-defs.svg#sun"></use>
+          </svg>
+        </button>
+        <button class="color-mode-btn dark--hidden" aria-label="Toggle dark mode">
+          <svg class="icon-moon">
+            <use xlink:href="assets/svg/svg-defs.svg#moon"></use>
+          </svg>
+        </button>
+      </div>
+
+      <!-- 
+        Name Block
+        -->
+      <div id="name-block">Arvind Krishna</div>
+
+      <!-- 
+        Navigation Block
+        -->
+      <div id="nav-block">
+
+        <!-- Additional nav links go here -->
+        <span id="projects" class="nav-selected"> Projects. </span>
+        <span id="Links ">
+            <a href="https://aroo.bio.link">
+              Links 
+            </a>
+          </span>
+      </div>
+
+      <!-- 
+        Profile Block
+        -->
+      <div id="pf-img-container">
+        <img id="pf-img-source" src="assets//avatar." alt="Profile Avatar">
+        <img id="pf-img-shadow" src="assets//avatar." alt="">
+      </div>
+      <div id="pf-info-container">
+        <div id="pf-info-bio">
+          <div>One day, you'll leave this world behind,
+            So leave commits you will remember </div>
+        </div>
+        <div id="pf-info-links">
+          <div id="pf-info-github">
+            <svg class="pf-info-icon icon-f">
+              <use xlink:href="assets/svg/svg-defs.svg#github"></use>
+            </svg>
+            <a target="_blank" href="https://github.com/ArvindAROO">
+              <span>ArvindAROO</span>
+            </a>
+          </div>
+          <div id="pf-info-location">
+            <svg class="pf-info-icon icon-f">
+              <use xlink:href="assets/svg/svg-defs.svg#map-pin"></use>
+            </svg>
+            <span>India</span>
+          </div>
+          <div id="pf-info-linkedin">
+            <svg class="pf-info-icon icon-f">
+              <use xlink:href="assets/svg/svg-defs.svg#linkedin"></use>
+            </svg>
+            <a target="_blank" href="https://linkedin.com/in/aroo">
+              <span>Arvind Krishna</span>
+            </a>
+          </div>
+          <div id="pf-info-twitter">
+            <svg class="pf-info-icon icon-f">
+              <use xlink:href="assets/svg/svg-defs.svg#twitter"></use>
+            </svg>
+            <a target="_blank" href="https://twitter.com/https://twitter.com/ArooKrishna">
+              <span>https://twitter.com/ArooKrishna</span>
+            </a>
+          </div>
+          <div>
+            <svg class="pf-info-icon icon-f">
+              <use xlink:href="assets/svg/svg-defs.svg#link"></use>
+            </svg>
+            <a href="https://www.linkedin.com/in/aroo">
+              <span>www.linkedin.com/in/aroo</span>
+            </a>
+          </div>
+          <div>
+            <svg class="pf-info-icon icon-f">
+              <use xlink:href="assets/svg/svg-defs.svg#link"></use>
+            </svg>
+            <a href="https://aroowrites.medium.com">
+              <span>Medium Blogs</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Repository Block -->
+      <div id="repo-block">
+        <div id="readme">
+          <h3><img src="https://raw.githubusercontent.com/iampavangandhi/iampavangandhi/master/gifs/Hi.gif" width="30px">Hey Guys I’m Arvind Krishna</h3>
+          <p>I am from Banglore, India and am currently doing B.Tech in Computer Science.</p>
+          <p>Mainly self-taught programmer with a huge passion for programming. Feel free to ping me about any of the below topics at any time.<br>
+            Learning new things is my fuel for life.<br>
+            <img align="right" src="https://user-images.githubusercontent.com/5713670/87202985-820dcb80-c2b6-11ea-9f56-7ec461c497c3.gif" width="200&quot;">
+          </p>
+          <h3>👨‍💻 Languages and Tools</h3>
+          <p><a href="https://github.com/ArvindAROO/ArvindAROO"><img src="https://img.shields.io/badge/-A8B9CC?style=flat&amp;logo=c&amp;logoColor=white&amp;link=https://github.com/ArvindAROO/ArvindAROO" alt="C"></a><br>
+            <a href="https://github.com/ArvindAROO/ArvindAROO"><img src="https://img.shields.io/badge/-Python-black?style=flat&amp;logo=python&amp;link=https://github.com/ArvindAROO/ArvindAROO" alt="Python"></a><br>
+            <a href="https://github.com/ArvindAROO/ArvindAROO"><img src="https://img.shields.io/badge/Java-orange?style=flat&amp;logo=java&amp;logoColor=white&amp;link=https://github.com/ArvindAROO/ArvindAROO" alt="Java"></a><br>
+            <a href="https://github.com/ArvindAROO/ArvindAROO"><img src="https://img.shields.io/badge/-Tensorflow-gray?style=flat&amp;logo=tensorflow&amp;link=https://github.com/ArvindAROO/ArvindAROO" alt="Tensorflow"></a><br>
+            <a href="https://github.com/ArvindAROO/ArvindAROO"><img src="https://img.shields.io/badge/-JavaScript-black?style=flat&amp;logo=javascript&amp;link=https://github.com/ArvindAROO/ArvindAROO" alt="JavaScript"></a><br>
+            <a href="https://github.com/ArvindAROO/ArvindAROO"><img src="https://img.shields.io/badge/-Nodejs-black?style=flat&amp;logo=Node.js&amp;link=https://github.com/ArvindAROO/ArvindAROO" alt="Nodejs"></a>
+          </p>
+          <p><a href="https://github.com/ArvindAROO/ArvindAROO"><img src="https://img.shields.io/badge/-MySQL-black?style=flat&amp;logo=mysql&amp;link=https://github.com/hritik5102" alt="MySQL"></a><br>
+            <a href="https://github.com/ArvindAROO/ArvindAROO"><img src="https://img.shields.io/badge/-Git-black?style=flat&amp;logo=git&amp;link=https://github.com/hritik5102" alt="Git"></a><br>
+            <a href="https://github.com/ArvindAROO/ArvindAROO"><img src="https://img.shields.io/badge/-GitHub-181717?style=flat&amp;logo=github&amp;link=https://github.com/hritik5102" alt="GitHub"></a>
+          </p>
+          <h2>A little bit more info</h2>
+          <ul>
+            <li>🔭 I’m currently working on #MYSELF</li>
+            <li>👯 I’m looking to collaborate on Literally anything</li>
+            <li>🤔 I’m looking for help with, hmm…, Project integrations, python, backend JS, competetive programming</li>
+            <li>💬 Ask me about: Literally anything (Not that I know about that, but I want to learn more about which I dont know)</li>
+            <li>📫 How to reach me: Drop a mail at <a href="mailto:arookrishna@protonmail.com">arookrishna@protonmail.com</a></li>
+            <li>😄 Pronouns: edit this section with whatever fits me and provide a PullRequest</li>
+            <li>⚡ Fun fact: Your free/paid certificates are worth shit in front of your knowledge</li>
+          </ul>
+          <h2>☕ Get In Touch</h2>
+          <ul>
+            <li>LinkedIn - <a href="https://www.linkedin.com/in/aroo">LinkedIn</a></li>
+            <li>Mail - <a href="mailto:arookrishna@protonmail.com">arookrishna@protonmail.com</a></li>
+            <li>GitHub - <a href="https://github.com/ArvindAROO/">github</a></li>
+            <li>Website - Loading…</li>
+          </ul>
+          <h3>🏆 Github Status</h3>
+          <p align="left"> <a href="https://github.com/ryo-ma/github-profile-trophy"><img src="https://github-profile-trophy.vercel.app/?username=ArvindAroo&amp;theme=onedark" alt="Aroo"></a> </p>
+          <p><img src="https://github-readme-stats.vercel.app/api?username=ArvindAroo&amp;count_private=true&amp;show_icons=true&amp;theme=radical&amp;line_height=33" alt="My Github Status"></p>
+          <p><a href="https://github.com/DenverCoder1/github-readme-streak-stats"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=ArvindAROO&amp;layout=compact&amp;show_icons=true&amp;theme=tokyonight" alt="Top Languages"></a></p>
+          <p><a href="https://github.com/DenverCoder1/github-readme-streak-stats"><img src="https://github-readme-streak-stats.herokuapp.com/?user=ArvindAROO&amp;theme=tokyonight" alt="GitHub Streak"></a></p>
+          <img alt="Activity Graph" src="https://activity-graph.herokuapp.com/graph?username=ArvindAROO&amp;theme=github">
+          <h3>Credits</h3>
+          <ul>
+            <li>Well, it’s a good thing to give credits to creators, almost all the content templates were ‘stolen’ (not really) from <a href="https://github.com/kautukkundan/Awesome-Profile-README-templates">https://github.com/kautukkundan/Awesome-Profile-README-templates</a> , a big THANK YOU!</li>
+          </ul>
+        </div>
+        <div id="repo-grid" class="grid">
+
+          <!-- repository cards go here -->
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/typeToHandwriting">
+                <span class="repo-title">
+                  typeToHandwriting
+                </span>
+                <span class="repo-desc">
+                A project which will convert plain text to handwritten like image</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>19</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>3</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/TheEnigma">
+                <span class="repo-title">
+                  TheEnigma
+                </span>
+                <span class="repo-desc">
+                The working software model of 'The Enigma'</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>2</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Snake-and-Ladder">
+                <span class="repo-title">
+                  Snake-and-Ladder
+                </span>
+                <span class="repo-desc">
+                A simple snake and ladder game using python</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>3</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>C</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/ActivationFunctions-in-C">
+                <span class="repo-title">
+                  ActivationFunctions-in-C
+                </span>
+                <span class="repo-desc">
+                A repository contains some of the activation functions used in ML implemented in C</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>1</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/GUI-based-age-calculator-using-Python">
+                <span class="repo-title">
+                  GUI-based-age-calculator-using-Python
+                </span>
+                <span class="repo-desc">
+                A simple GUI(Tkinter) based age calculator using python</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>1</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/J.A.R.V.I.S">
+                <span class="repo-title">
+                  J.A.R.V.I.S
+                </span>
+                <span class="repo-desc">
+                Repo of the J.A.R.V.I.S discord bot for moderation in server</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>1</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Java</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/wordle.java">
+                <span class="repo-title">
+                  wordle.java
+                </span>
+                <span class="repo-desc">
+                Java implementation of the Worlde game</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>5</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>1</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Clickbait-detector">
+                <span class="repo-title">
+                  Clickbait-detector
+                </span>
+                <span class="repo-desc">
+                An extension to detect if the articles content match its title.</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>4</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>1</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>JavaScript</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/JARVIS.js">
+                <span class="repo-title">
+                  JARVIS.js
+                </span>
+                <span class="repo-desc">
+                J.A.R.V.I.S rewrite in discord.js</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>3</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>2</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/UE19CS344-DBT-Labs">
+                <span class="repo-title">
+                  UE19CS344-DBT-Labs
+                </span>
+                <span class="repo-desc">
+                The labs and assignments for DataBaseTech course offered by PES University during 6th sem</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>2</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/DBT-Project-UE19CS344">
+                <span class="repo-title">
+                  DBT-Project-UE19CS344
+                </span>
+                <span class="repo-desc">
+                </span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>2</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>1</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Java</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/OOAD-Labs">
+                <span class="repo-title">
+                  OOAD-Labs
+                </span>
+                <span class="repo-desc">
+                </span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>2</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Machine-Intelligence-Lab-CS305">
+                <span class="repo-title">
+                  Machine-Intelligence-Lab-CS305
+                </span>
+                <span class="repo-desc">
+                All the code and files related to the MI-Lab of UE19CS305 course in sem 5</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>1</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Java</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Notifier">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  Notifier
+                </span>
+                <span class="repo-desc">
+                App to notify you at the time you pick</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>1</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>C</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/DAA_Assignments_UE19CS251">
+                <span class="repo-title">
+                  DAA_Assignments_UE19CS251
+                </span>
+                <span class="repo-desc">
+                A repository containing the source codes for the assignments done as a part of the Design And Analysis Of Algorithms (UE19CS251) at PES University.</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>1</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/socialEngineeringAttack">
+                <span class="repo-title">
+                  socialEngineeringAttack
+                </span>
+                <span class="repo-desc">
+                A script which will generate a file containing possible passwords generated from a social Engineering method</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>1</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>1</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/CodeVid19">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  CodeVid19
+                </span>
+                <span class="repo-desc">
+                </span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>1</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/awesome-python">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  awesome-python
+                </span>
+                <span class="repo-desc">
+                A curated list of awesome Python frameworks, libraries, software and resources</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>1</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/CaaS">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  CaaS
+                </span>
+                <span class="repo-desc">
+                Captioning-as-a-Service</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Python-Is-All-You-Need">
+                <span class="repo-title">
+                  Python-Is-All-You-Need
+                </span>
+                <span class="repo-desc">
+                Final Project for Python-Is-All-You-Need Summer Course</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>JavaScript</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/pesu-bot-js">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  pesu-bot-js
+                </span>
+                <span class="repo-desc">
+                Rewrite for PESU Discord Bot in Javascript (Refer to https://github.com/sach-12/pesu-bot)</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Jupyter Notebook</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Machine-Learning-with-Spark-Streaming">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  Machine-Learning-with-Spark-Streaming
+                </span>
+                <span class="repo-desc">
+                Machine Learning with Spark MLlib is one of the project titles that can be taken up as a part of the UE19CS322 Big Data course at PES University. </span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/pesu-bot">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  pesu-bot
+                </span>
+                <span class="repo-desc">
+                </span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>JavaScript</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/UE19CS301-DBMSAssignments">
+                <span class="repo-title">
+                  UE19CS301-DBMSAssignments
+                </span>
+                <span class="repo-desc">
+                </span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>2</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/pesu-academy-bot">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  pesu-academy-bot
+                </span>
+                <span class="repo-desc">
+                PESU Academy Discord Bot built for PESsants and PESts of PES University</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Covid19-India-Discord-Bot">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  Covid19-India-Discord-Bot
+                </span>
+                <span class="repo-desc">
+                </span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/SpaceJamBot">
+                <span class="repo-title">
+                  SpaceJamBot
+                </span>
+                <span class="repo-desc">
+                </span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>HTML</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/webtech-project-CS204">
+                <span class="repo-title">
+                  webtech-project-CS204
+                </span>
+                <span class="repo-desc">
+                The official repo for CS204 webtech project</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>1</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Tweet_data_hunter">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  Tweet_data_hunter
+                </span>
+                <span class="repo-desc">
+                </span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Enigma">
+                <span class="repo-title">
+                  Enigma
+                </span>
+                <span class="repo-desc">
+                </span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Hacktoberfest">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  Hacktoberfest
+                </span>
+                <span class="repo-desc">
+                </span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/ColoredSTDOUT">
+                <span class="repo-title">
+                  ColoredSTDOUT
+                </span>
+                <span class="repo-desc">
+                A script which will print the given file with RGB effects</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Shell</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/hello-github-actions">
+                <span class="repo-title">
+                  hello-github-actions
+                </span>
+                <span class="repo-desc">
+                </span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/ArvindAROO">
+                <span class="repo-title">
+                  ArvindAROO
+                </span>
+                <span class="repo-desc">
+                My very first profile-readme</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>1</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/whatsapp_analyser">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  whatsapp_analyser
+                </span>
+                <span class="repo-desc">
+                Analysis of any chat in Whatsapp</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Spam-Detector">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  Spam-Detector
+                </span>
+                <span class="repo-desc">
+                This is a simple implementation of a Spam Detector using Python Programming Language</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Rotten-Scripts">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  Rotten-Scripts
+                </span>
+                <span class="repo-desc">
+                Scripts that will make you go WOW 😍💻</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>C</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/AirportSimulation">
+                <span class="repo-title">
+                  AirportSimulation
+                </span>
+                <span class="repo-desc">
+                A simulation of Airport containing a single runway in C</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/AckermannFunctionHyperOptimization">
+                <span class="repo-title">
+                  AckermannFunctionHyperOptimization
+                </span>
+                <span class="repo-desc">
+                The hyperoptimized Ackermann function</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Python">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  Python
+                </span>
+                <span class="repo-desc">
+                All Algorithms implemented in Python</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/algorithms">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  algorithms
+                </span>
+                <span class="repo-desc">
+                Minimal examples of data structures and algorithms in Python</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-lang"><span>Python</span></div>
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/Python-Quarantine-Projects">
+                <span class="repo-title">
+                  <svg class="icon-fork"><use xlink:href="assets/svg/svg-defs.svg#fork"></use></svg>
+                  Python-Quarantine-Projects
+                </span>
+                <span class="repo-desc">
+                Here we are going to make some python projects during Quarantine time</span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+          <div class="grid-item">
+            <div class="repo-about">
+              <a href="https://github.com/ArvindAROO/AK">
+                <span class="repo-title">
+                  AK
+                </span>
+                <span class="repo-desc">
+                </span>
+              </a>
+            </div>
+            <div class="repo-stats">
+              <svg class="icon-star">
+                <use xlink:href="assets/svg/svg-defs.svg#star"></use>
+              </svg>
+              <span>0</span>
+              <svg class="icon-fork">
+                <use xlink:href="assets/svg/svg-defs.svg#fork"></use>
+              </svg>
+              <span>0</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+    <script src="index.js"></script>
+
+    <!-- Built using Portfolio (https://github.com/shaansubbaiah/Portfolio) -->
+  </body>
+</html>
